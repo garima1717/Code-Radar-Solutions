@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 char a[100],b[100];
-scanf("%c%c",&a,&b);
-printf("You entered: %c",a "and %c",b);
+scanf("%s%s",&a,&b);
+printf("You entered: %s",a "\nand %s",b);
 return 0;
 }
