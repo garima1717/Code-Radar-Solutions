@@ -1,8 +1,9 @@
 #include<stdio.h>
-int main(){
+int main()
+{
     int num1,num2,num3,avg;
     scanf("%d%d%d",num1,num2,num3);
     avg=num1+num2+num3/3;
-    print(avg);
+    printf(avg);
     return 0;
 }
