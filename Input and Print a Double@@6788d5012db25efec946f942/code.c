@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(){
+int main() {
     double a;
     scanf("%f",&a);
     printf("You entered: %.4lf\n",a);
