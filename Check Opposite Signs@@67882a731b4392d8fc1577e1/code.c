@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-    int num1,num2;
-    scanf("%d",&num1,&num2);
-    printf("%s",(num1*num2>=0)?"False":"True");
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("True",a>0&&b<0);
+    printf("False",a>0&&b>0);
     return 0;
 }
