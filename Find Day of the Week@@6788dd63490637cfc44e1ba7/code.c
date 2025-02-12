@@ -23,6 +23,8 @@ int main(){
     case 7:
     printf("Sunday");
     break;
+    default:
+    printf("enter from 1 to 7");
     return 0;
     }
 }
