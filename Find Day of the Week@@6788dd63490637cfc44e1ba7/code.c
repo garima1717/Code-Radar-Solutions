@@ -24,7 +24,7 @@ int main(){
     printf("Sunday");
     break;
     default:
-    printf("enter from 1 to 7");
+    printf("Invalid");
     return 0;
     }
 }
