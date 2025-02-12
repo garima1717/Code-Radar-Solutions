@@ -8,8 +8,11 @@ int main(){
     else if(a!=b!=c){
         printf("Scalene");
     }
-    else{
+    else if((a=b!=c)||(a!=b=c)||(a=c!=b)){
         printf("Isoceles");
+    }
+    else{
+        printf("enter valid input");
     }
     return 0;
 }
