@@ -2,17 +2,17 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if(a=b=c){
+    if(a==b&&b==c){
         printf("Equilateral");
     }
-    else if(a!=b!=c){
-        printf("Scalene");
+    else if(a == b || b == c || a == c){
+        printf("Isosceles");
     }
-    else if((a=b!=c)||(a!=b=c)||(a=c!=b)){
-        printf("Isoceles");
+    else if(a <= 0 || b <= 0 || c <= 0 || (a + b <= c) || (a + c <= b) || (b + c <= a)){
+        printf("enter valid input");
     }
     else{
-        printf("enter valid input");
+        printf("Scalene");
     }
     return 0;
 }
