@@ -17,6 +17,6 @@ int main(){
     else if(marks<60){
         printf("F");
     }
-    else{prinf("ENTER VALID NUMBER");}
+    else{printf("ENTER VALID NUMBER");}
     return 0;
 }
