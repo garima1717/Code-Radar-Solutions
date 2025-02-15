@@ -3,8 +3,6 @@
 int main() {
     int num1, num2;
     
-    // Input two integers
-    printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
     
     // Check sign correctly
