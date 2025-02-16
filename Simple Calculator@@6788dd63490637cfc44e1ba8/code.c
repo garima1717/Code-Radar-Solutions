@@ -19,7 +19,7 @@ int main() {
             break;
         case '/':
             if (b != 0)
-                printf("%.2f", (float)a / b); // Convert to float for division
+                printf("%d",a / b); // Convert to float for division
             else
                 printf("error");
             break;
