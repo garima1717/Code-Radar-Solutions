@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     char oper;
-    scanf("%d %d %c",&a,&b,&oper);
+    scanf("%d %d% *c%c",&a,&b,&oper);
     switch(oper){
         case '+':
         printf("%d",a+b);
@@ -14,7 +14,12 @@ int main(){
         printf("%d",a*b);
         break;
         case '/':
-        printf("%d",a/b);
+        if(b!=0){
+            printf("%d",a/b);
+        }
+        else{
+            printf("error");
+        }
         break;
         default:
         printf("error");
