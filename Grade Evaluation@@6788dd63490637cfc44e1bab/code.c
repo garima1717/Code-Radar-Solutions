@@ -13,7 +13,7 @@ int main(){
         printf("Average");
         break;
         case 'D':
-        printf("Below Average"):
+        printf("Below Average");
         break;
         case 'F':
         printf("Fail");
