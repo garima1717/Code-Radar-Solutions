@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     if(n<=0){
         printf("Invalid input\n");
-        for(int i=0,i<=n;i++){
+        for(int i=0,i<=n;i++) {
             fibonacciSeries(i);
         }
         return 0;
