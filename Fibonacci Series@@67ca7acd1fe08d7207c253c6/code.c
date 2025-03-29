@@ -1,4 +1,8 @@
 #include<stdio.h>
+int fibonacciSeries(n);
+    if (n==0) return 0;
+    if (n==1) return 1;
+    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
 int main(){
     int n;
     scanf("%d",&n);
@@ -6,12 +10,7 @@ int main(){
         printf("Invalid input\n");
         return 0;
     }
-    for(int i=0,i<=n;i++) {
-            fibonacciSeries(i);
-        }
-    int fibonacciSeries(n);
-    if (n==0) return 0;
-    if (n==1) return 1;
-    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
-    return 0;
+    for(int i=0;i<=n;i++) {
+            printf("%d"fibonacciSeries(i));
+    }
 }
